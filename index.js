@@ -17,8 +17,8 @@ function destructivelyRemoveFirstCat(name){
     cats.shift(name);
 }
 
-function appendCat(name) {
-   return [...cats, name]
+function appendCat(blanket) {
+   return [...cats, blanket]
 
 }
 
